@@ -9,17 +9,22 @@
     <link rel="stylesheet" href="extra.css">
     <!-- font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Open+Sans&display=swap" rel="stylesheet">
     <title>VR Car Detail</title>
 </head>
 
 
 <body>
-  <nav class="md:w-1/5 bg-custom-black md:bg-opacity-80 text-custom-white md:h-screen flex flex-col text-center md:text-right justify-center md:absolute md:top-0 md:left-0 topnav">
+  <nav class="md:w-1/5 bg-black md:border-r-2 md:border-primary text-custom-white md:h-screen flex flex-col text-center md:text-right justify-center md:absolute md:top-0 md:left-0 topnav">
+    <div class="border-b-primary">
+      <a href="index.html"><img class="h-16 md:h-auto" src="img/logo.png" alt=""></a>
+    </div>
     
-    <a href="index.html"><img class="h-16 md:h-auto border-b-primary" src="img/Logo-Test.png" alt=""></a>
 
     <div id="myLinks" class="md:visible">
-        <div class="flex flex-col p-4 text-2xl md:text-base" >
+        <div class="flex flex-col p-4 text-3xl md:text-2xl" >
             <a class="p-2 md:px-4 md:py-1 hover:text-primary" href="index.html">Home</a>
             <a class="p-2 md:px-4 md:py-1 hover:text-primary" href="about.html">About</a>
             <a class="p-2 md:px-4 md:py-1 hover:text-primary" href="portfolio.html">Portfolio</a>
@@ -38,8 +43,52 @@
 
   </nav>
   
-  <main onclick="closeNav()">
+  <main class="md:w-4/5 ml-fix bg-custom-black h-full" onclick="closeNav()">
+ 
+    <div class="container text-custom-white py-20 md:flex">
 
+      
+
+        <div class="w-full bg-gray-900">
+          <h2 class="text-custom-white text-4xl py-4">Contact</h2>
+
+          <div class="py-4">
+            <h3 class="text-primary text-2xl py-2">Background</h3>
+            <p> unde magni! Rerum illo vero amet facilis dicta cupiditate laudantium expedita hic, blanditiis, fuga quas magni quia officiis, incidunt ducimus porro exercitationem esse nemo temporibus dignissimos ea ipsum laborum nostrum quasi. Vitae quod facere cupiditate deleniti non labore.</p>
+          </div>
+        </div>
+
+        <div class="w-full bg-primary px-2">
+          <h3 class="text-custom-white text-2xl py-4">Contact Form</h3>
+          <form action="mailto:baeyensmichael@hotmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </form>
+        </div>
+
+     
+      
+      
+      
+
+      
+
+
+
+      
+    </div>
+      
+   
+    
+    
+
+    
   </main>
 
 

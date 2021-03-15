@@ -4,9 +4,38 @@
   box-sizing: border-box;
 }
 
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bd8f2b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f3b530;
+}
+/* End scroll bar */
+
 body,
 html {
   height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+a {
+  font-family: "Montez", cursive;
 }
 
 .bg-homepage {
@@ -38,7 +67,7 @@ nav {
   }
 
   .border-b-primary {
-    border-bottom: 2px solid #cdaa35;
+    border-bottom: 2px solid #bd8f2b;
     width: 100%;
   }
 

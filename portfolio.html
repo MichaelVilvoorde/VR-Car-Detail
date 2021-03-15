@@ -9,17 +9,22 @@
     <link rel="stylesheet" href="extra.css">
     <!-- font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Open+Sans&display=swap" rel="stylesheet">
     <title>VR Car Detail</title>
 </head>
 
 
-<body>
-  <nav class="md:w-1/5 bg-custom-black md:bg-opacity-80 text-custom-white md:h-screen flex flex-col text-center md:text-right justify-center md:absolute md:top-0 md:left-0 topnav">
+<body class="bg-custom-black md:bg-homepage">
+  <nav class="md:w-1/5 bg-black md:border-r-2 md:border-primary text-custom-white md:h-screen flex flex-col text-center md:text-right justify-center md:absolute md:top-0 md:left-0 topnav">
+    <div class="border-b-primary">
+      <a href="index.html"><img class="h-16 md:h-auto" src="img/logo.png" alt=""></a>
+    </div>
     
-    <a href="index.html"><img class="h-16 md:h-auto border-b-primary" src="img/Logo-Test.png" alt=""></a>
 
     <div id="myLinks" class="md:visible">
-        <div class="flex flex-col p-4 text-2xl md:text-base" >
+        <div class="flex flex-col p-4 text-3xl md:text-2xl" >
             <a class="p-2 md:px-4 md:py-1 hover:text-primary" href="index.html">Home</a>
             <a class="p-2 md:px-4 md:py-1 hover:text-primary" href="about.html">About</a>
             <a class="p-2 md:px-4 md:py-1 hover:text-primary" href="portfolio.html">Portfolio</a>
@@ -38,10 +43,168 @@
 
   </nav>
   
-  <main onclick="closeNav()">
+  <main class="md:w-4/5 ml-fix text-custom-white" onclick="closeNav()">
+    <div class="container py-20">
+      <h2 class="text-custom-white text-4xl py-4">Portfolio</h2>
+      
+        <div class="flex flex-wrap -mx-1 lg:-mx-4">
+    
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+    
+                <!-- video -->
+                <div class="overflow-hidden rounded-lg border-2 border-primary">
+                    <iframe class="w-full h-52 md:h-60" src="https://www.youtube.com/embed/5lKM8ThuZOQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+                    <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                    <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                  
+                </div>
+                
+            </div>
+            <!-- End Card -->
 
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                
+              <!-- video -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary">
+                  <iframe class="w-full h-52 md:h-60" src="https://www.youtube.com/embed/VHidjsle32I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                  <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                  <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                
+              <!-- video -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary">
+                  <iframe class="w-full h-52 md:h-60" src="https://www.youtube.com/embed/dcsXdT5oahg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                  <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                  <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            
+              <!-- imgage -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary h-full">
+                <img alt="Placeholder" class="block h-auto w-full" src="img/car-preview-1.png">
+                
+                <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            
+              <!-- imgage -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary h-full">
+                <img alt="Placeholder" class="block h-auto w-full" src="img/car-preview-2.png">
+                
+                <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            
+              <!-- imgage -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary h-full">
+                <img alt="Placeholder" class="block h-auto w-full" src="img/car-preview-3.png">
+                
+                <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            
+              <!-- imgage -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary h-full">
+                <img alt="Placeholder" class="block h-auto w-full" src="img/car-preview-4.png">
+                
+                <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            
+              <!-- imgage -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary h-full">
+                <img alt="Placeholder" class="block h-auto w-full" src="img/car-preview-5.png">
+                
+                <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="my-4 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                            
+              <!-- imgage -->
+              <div class="overflow-hidden rounded-lg border-2 border-primary h-full">
+                <img alt="Placeholder" class="block h-auto w-full" src="img/car-preview-6.png">
+                
+                <h4 class="text-lg p-4">Lorem ipsum dolor sit amet.</h4>
+                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum iusto qui? Voluptate fugiat labore fugit. Cupiditate culpa eius dolores.</p>
+                
+              </div>
+              
+            </div>
+            <!-- End Card -->
+
+            
+    
+            
+
+        
+    
+
+        </div>
+    
+     
+      
+
+      
+      
+      
+    </div>
+    
+    
+
+    
   </main>
-
 
 
   
