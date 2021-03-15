@@ -98,4 +98,8 @@ nav {
   .ml-fix {
     margin-left: 20%;
   }
+
+  #myLinks {
+    display: block !important;
+  }
 }

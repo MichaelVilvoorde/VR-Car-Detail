@@ -16,7 +16,7 @@
 </head>
 
 
-<body>
+<body class="bg-custom-black">
   <nav class="md:w-1/5 bg-black md:border-r-2 md:border-primary text-custom-white md:h-screen flex flex-col text-center md:text-right justify-center md:absolute md:top-0 md:left-0 topnav">
     <div class="border-b-primary">
       <a href="index.html"><img class="h-16 md:h-auto" src="img/logo.png" alt=""></a>
@@ -43,32 +43,39 @@
 
   </nav>
   
-  <main class="md:w-4/5 ml-fix bg-custom-black h-full" onclick="closeNav()">
+  <main class="md:w-4/5 ml-fix" onclick="closeNav()">
  
     <div class="container text-custom-white py-20 md:flex">
 
       
 
-        <div class="w-full bg-gray-900">
+        <div class="w-full md:pr-8">
           <h2 class="text-custom-white text-4xl py-4">Contact</h2>
 
-          <div class="py-4">
-            <h3 class="text-primary text-2xl py-2">Background</h3>
-            <p> unde magni! Rerum illo vero amet facilis dicta cupiditate laudantium expedita hic, blanditiis, fuga quas magni quia officiis, incidunt ducimus porro exercitationem esse nemo temporibus dignissimos ea ipsum laborum nostrum quasi. Vitae quod facere cupiditate deleniti non labore.</p>
-          </div>
+          <h3 class="text-primary text-2xl py-2">Phone Number</h3>
+          <p>+32 477 88 99 00</p>
+        
+          <h3 class="text-primary text-2xl py-2">E-mail</h3>
+          <p>email@email.com</p>
+        
+          <h3 class="text-primary text-2xl py-2">My Social Media</h3>
+          <a href="https://facebook.com" target=”_blank”><i class="fab fa-facebook-square fa-2x pr-2 hover:text-yellow-400"></i></a>
+          <a href="https://twitter.com" target=”_blank”><i class="fab fa-twitter-square fa-2x pr-2 hover:text-yellow-400"></i></a>
+          <a href="https://instagram.com" target=”_blank”><i class="fab fa-instagram-square fa-2x pr-2 hover:text-yellow-400"></i></a>
+          
+        
         </div>
 
-        <div class="w-full bg-primary px-2">
+        <div class="w-full bg-primary p-4 md:ml-4 rounded-md">
           <h3 class="text-custom-white text-2xl py-4">Contact Form</h3>
-          <form action="mailto:baeyensmichael@hotmail.com" method="post" enctype="text/plain">
+          <form action="action_page.php" method="post" enctype="text/plain">
             Name:<br>
-            <input type="text" name="name"><br>
+            <input type="text" name="name" class="w-full rounded-md"><br>
             E-mail:<br>
-            <input type="text" name="mail"><br>
+            <input type="text" name="mail" class="w-full rounded-md"><br>
             Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
+            <input type="text" name="comment" class="w-full h-24 rounded-md"><br><br>
+            <input type="submit" value="Submit" class="bg-custom-black p-2 rounded-md w-full">
           </form>
         </div>
 
