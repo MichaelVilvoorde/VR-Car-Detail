@@ -26,11 +26,15 @@
 }
 /* End scroll bar */
 
+
+
 body,
 html {
   height: 100%;
   font-family: "Open Sans", sans-serif;
+  
 }
+
 
 h1,
 h2,
@@ -101,5 +105,9 @@ nav {
 
   #myLinks {
     display: block !important;
+  }
+  
+  .w-20vw{
+    width: 20vw;
   }
 }
